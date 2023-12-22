@@ -11,16 +11,16 @@ $.getScript(
           },
         },
         color: {
-          value: "#fbfbfb",
+          value: "#fff",
         },
         shape: {
-          type: "circle",
+          type: "star",
           stroke: {
-            width: 0,
-            color: "#ddd000",
+            width: 6,
+            color: "#2d5d70",
           },
           polygon: {
-            nb_sides: 5,
+            nb_sides: 13,
           },
           image: {
             width: 100,
@@ -28,35 +28,35 @@ $.getScript(
           },
         },
         opacity: {
-          value: 0.5,
+          value: 0.9,
           random: false,
           anim: {
             enable: false,
-            speed: 1,
+            speed: 20,
             opacity_min: 0.1,
             sync: false,
           },
         },
         size: {
-          value: 5,
+          value: 2,
           random: true,
           anim: {
             enable: false,
             speed: 40,
-            size_min: 0.1,
+            size_min: 0.5,
             sync: false,
           },
         },
         line_linked: {
           enable: true,
-          distance: 150,
-          color: "#ffffff",
-          opacity: 0.4,
-          width: 1,
+          distance: 140,
+          color: "#888bc3",
+          opacity: 0.5,
+          width: 0.5,
         },
         move: {
           enable: true,
-          speed: 4,
+          speed: 3,
           direction: "none",
           random: false,
           straight: false,
@@ -77,23 +77,16 @@ $.getScript(
           },
           onclick: {
             enable: true,
-            mode: "push",
+            mode: "repulse",
           },
           resize: true,
         },
         modes: {
           grab: {
-            distance: 400,
+            distance: 500,
             line_linked: {
               opacity: 1,
             },
-          },
-          bubble: {
-            distance: 400,
-            size: 40,
-            duration: 2,
-            opacity: 8,
-            speed: 3,
           },
           repulse: {
             distance: 150,

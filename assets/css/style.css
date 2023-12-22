@@ -392,13 +392,14 @@ B. Helpers
 
 .ts-background-image,
 .ts-img-into-bg {
-  background-repeat: no-repeat;
+  background-image: url("../img/dark-sky.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 50%;
   height: 100%;
   overflow: hidden;
   width: 100%;
-  background-color: #050505;
+  /* background-color: #050505; */
 }
 
 .ts-background-image img,
