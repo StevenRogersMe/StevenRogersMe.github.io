@@ -2857,3 +2857,7 @@ E. Template Specific Elements
   top: -20px;
   left: 100px;
 }
+
+.border-top-section {
+  border-top: 3px solid white;
+}
